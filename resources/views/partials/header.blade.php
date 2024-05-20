@@ -5,7 +5,7 @@
         </div>
         <nav class="d-flex align-items-center ms-auto">
             <ul class="d-flex list-style-none">
-                <li><a href="#">CHARACTERS</a></li>
+                <li class="active"><a href="#">CHARACTERS</a></li>
                 <li><a href="#">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
