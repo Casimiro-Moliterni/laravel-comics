@@ -6,9 +6,10 @@
     </section>
     <section class="ms_bg_cards">
         <div class="ms_container ">
-            <div class="row justify-content-between g-3 pt-3">
+        <div class="ms_overlay">CURRENT SERIES</div>
+            <div class="row justify-content-between g-3 pt-4 mx-1">
                 @foreach ($comics as $singlecomic)
-                    <div class="col-2 ">
+                    <div class="col-2">
                         <div class="ms_card">
                             <div class="ms_image mb-2">
                                 <img src="{{ $singlecomic['thumb'] }}" alt="">
@@ -26,7 +27,7 @@
     <section class="ms_icon_section">
         <div class="ms_container">
             <div class="row justify-content-between text-white">
-                <div class="col d-flex align-items-center gap-2 mt-5 mb-5">
+                <div class="col d-flex align-items-center gap-1 mt-5 mb-5">
                     <div class="ms_icon_image">
                         <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                     </div>
@@ -34,7 +35,7 @@
                         DIGITAL COMICS
                     </div>
                 </div>
-                <div class="col d-flex align-items-center gap-2 mt-5 mb-5">
+                <div class="col d-flex align-items-center gap-1 mt-5 mb-5">
                     <div class="ms_icon_image">
                         <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="">
                     </div>
@@ -42,7 +43,7 @@
                         DC MERCHANDISE
                     </div>
                 </div>
-                <div class="col d-flex align-items-center gap-2 mt-5 mb-5">
+                <div class="col d-flex align-items-center gap-1 mt-5 mb-5">
                     <div class="ms_icon_image">
                         <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="">
                     </div>
@@ -50,7 +51,7 @@
                         SUBSCRIPTION
                     </div>
                 </div>
-                <div class="col d-flex align-items-center gap-2 mt-5 mb-5">
+                <div class="col d-flex align-items-center gap-1 mt-5 mb-5">
                     <div class="ms_icon_image">
                         <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="">
                     </div>
@@ -58,7 +59,7 @@
                        COMIC SHOP LOCATOR
                     </div>
                 </div>
-                <div class="col d-flex align-items-center gap-2 mt-5 mb-5">
+                <div class="col d-flex align-items-center gap-1 mt-5 mb-5">
                     <div class="ms_icon_image">
                         <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="">
                     </div>

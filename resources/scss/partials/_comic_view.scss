@@ -1,49 +1,92 @@
 @use './variables' as *;
 
-.hero{
+.hero {
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../img/jumbotron.jpg');
 }
 
-.ms_card{
-
-    .ms_image{
-        height: 190px;
-        img{
+.ms_card {
+    .ms_image {
+        height: 150px;
+        width: 100%;
+        img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-    .ms_title{
+
+    .ms_title {
         font-size: 13px;
     }
 }
 
-.ms_bg_cards{
+.ms_bg_cards {
     background-color: #1c1c1c;
-    .ms_btn{
-        margin-top: 45px;
-        margin-bottom: 20px;
-        padding: 10px 60px;
-        background-color: $brand_primary;
-        border: none;
-        font-weight: 700;
+
+    .ms_container {
+        position: relative;
+        z-index: 1;
+
+        .ms_overlay {
+            position: absolute;
+            text-align: center;
+            padding: 12px 25px;
+            color: white;
+            font-weight: 700;
+            background-color: $brand_primary;
+            z-index: 111;
+            top: -25px;
+            left: 0;
+        }
+
+        .ms_card {
+
+            .ms_image {
+                height: 190px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .ms_title {
+                font-size: 13px;
+            }
+        }
+
+        .ms_btn {
+            margin-top: 45px;
+            margin-bottom: 20px;
+            padding: 10px 60px;
+            background-color: $brand_primary;
+            border: none;
+            font-weight: 700;
+        }
     }
+
 }
-.ms_icon_section{
+
+.ms_icon_section {
     background-color: $brand_primary;
-    .ms_icon_image{
+
+    .ms_icon_image {
         height: 40px;
-        img{
+
+        img {
             height: 100%;
             width: 100%;
             object-fit: cover;
         }
     }
-    .ms_title{
-        font-size: 13px;
+
+    .ms_title {
+        font-size: 12px;
+        font-weight: 400;
+        text-wrap: nowrap;
     }
 }
