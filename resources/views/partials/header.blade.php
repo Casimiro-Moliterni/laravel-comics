@@ -1,12 +1,12 @@
-<header class="pt-2 pb-2">
+<header>
     <div class="ms_container d-flex align-items-center">
         <div class="ms_logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         </div>
         <nav class="d-flex align-items-center ms-auto">
-            <ul class="d-flex list-style-none">
-                <li class="active"><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
+            <ul class="d-flex list-style-none align-items-center m-0">
+                <li><a href="#">CHARACTERS</a></li>
+                <li class="active"><a href="#">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>
