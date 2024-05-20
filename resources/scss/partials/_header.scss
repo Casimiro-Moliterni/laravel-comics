@@ -1,0 +1,28 @@
+header{
+
+   .ms_container{
+
+    .ms_logo{
+        height: 75px;
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    nav{
+
+        
+        ul{
+            list-style: none;
+            display:flex;
+            gap: 10px;
+
+            a{
+                color: black;
+                text-decoration: none;
+                font-size: 14px;
+            }
+        }
+    }
+   }
+}

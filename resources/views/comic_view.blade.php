@@ -1,1 +1,5 @@
-<h1>ciao sono comic view</h1>
+
+@extends('layouts.app')
+@section('content')
+<h1>ciao sono comic views</h1>
+@endsection

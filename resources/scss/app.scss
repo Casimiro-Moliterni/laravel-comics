@@ -1,2 +1,8 @@
-@import '~bootstrap/scss/bootstrap';
 @use './partials/header';
+
+@import '~bootstrap/scss/bootstrap';
+
+.ms_container{
+    width: 80%;
+    margin: 0 auto;
+}
