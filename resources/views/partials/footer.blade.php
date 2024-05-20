@@ -2,7 +2,7 @@
     <div class="footer_top">
         <div class="ms_container">
             <div class="ms_overlay"></div>
-            <div class="row row-cols-3 text-white pt-4 pb-2" >
+            <div class="row row-cols-3  pt-4 pb-2" >
                 <div class="col">
                     <h3>DC COMICS</h3>
                     <ul>
