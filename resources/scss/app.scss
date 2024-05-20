@@ -1,6 +1,7 @@
 @use './partials/variables' as *;
 @use './partials/header';
 @use './partials/comic_view';
+@use './partials/footer';
 @import '~bootstrap/scss/bootstrap';
 
 .ms_container{
